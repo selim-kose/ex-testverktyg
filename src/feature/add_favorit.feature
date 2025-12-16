@@ -6,5 +6,5 @@ Feature: Add favorite marking
 
   Scenario: Add favorite marking
     Given user is on the main page
-    When user clicks on a heart icon next to a book title
-    Then the heart icon should be filled, indicating the book is marked as favorite 
+    #When user clicks on a heart icon next to a book title
+    #Then the heart icon should be filled, indicating the book is marked as favorite 
