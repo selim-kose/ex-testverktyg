@@ -4,11 +4,13 @@
 
 Feature: Add book
 
-  Scenario: Add a new book
-    Given user is on the main page
+  Scenario: Add a new books
+    Given user is on the main pages
     When user clicks on the "Lägg till bok" button
-    And user fills in the book title
-    And user fills in the author
-    And user submits the form by pressing the "Lägg till ny bok" button
-    And user click on the "Katalog" button
-    Then the new book should appear in the book list
+    When user adds the following books:
+        | book_title            | book_author           |
+        | The Great Gatsby      | F. Scott Fitzgerald   |
+        | To Kill a Mockingbird | Harper Lee             |
+        | 1984                  | George Orwell          |
+    And user clicks on the "Katalog" button
+    Then the books should appear in the book list
