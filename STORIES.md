@@ -1,36 +1,42 @@
 # User Stories
 
-## U1
+## U1 - Favoritmarkera bok i katalogen
 
-som en anvvändare vill jag vill jag kunna favoritmarkera böcker och ett hjärta läggs till vid sidan av titeln i katalogvyn
+som en användare vill jag kunna favoritmarkera böcker och ett hjärta läggs till vid sidan av titeln i katalogvyn
 så att jag kan se vilka böcker som har lagts till som mina favoriter i katalogvyn
 
-## U2
+## U2 - Avmarkera favorit i katalogen
 
-Som en användare vill jag kunna avmarkera favoritmarkerade böcker i katalogvyn och hjärtart tas bort vid titeln
-så att jag vet vilka böcker som inte är mina favoriter längre
+Som användare
+vill jag kunna avmarkera en bok som favorit i katalogvyn
+så att jag kan ta bort böcker som inte längre är mina favoriter.
 
-## U3
+## U3 - Visa favoritböcker i “Mina böcker”
 
-Som en användare vill jag kunna markera mina favoritböcker i katalogvyn
-så att jag kan se alla mina böcker i en lista i Mina böcker vyn
+Som användare
+vill jag kunna se alla mina favoritmarkerade böcker i vyn “Mina böcker”
+så att jag får en samlad lista över mina favoriter.
 
-## U4
+## U4 - Uppdaterad lista vid avmarkering
 
-Som en användare vill jag kunna avmarkera mina favoritböcker i katalogvyn
-så att jag kan se alla mina nuvarande favoritböcker i en lista i mina böcker vyn
+Som användare
+vill jag att en bok tas bort från “Mina böcker” när jag avmarkerar den som favorit
+så att listan alltid visar mina aktuella favoritböcker.
 
-## U5
+## U5 - Lägga till nya böcker i katalogen
 
-Som en användare vill jag kunna lägga till böcker i katalogen som sedan syns i katalogvyn
-så att jag kan favoritmarkera de
+Som användare
+vill jag kunna lägga till böcker i katalogen
+så att dom syns i katalogvyn och kan favoritmarkeras
 
-## U6
+## U6 - Visuell indikation för favoritmarkering
 
-Som en användare vill jag att hjärtat för favorit markering ska visas genomskinlig när jag flyttar musen övern boktiteln
-så att jag vet att det går att favoritmarkera böcker
+Som användare
+vill jag att favoritikonen visas genomskinlig när jag för musen över en bok i katalogen
+så att jag förstår att boken går att markera som favorit.
 
-## U7
+## U7 - Navigera mellan vyer
 
-Som en användare vill jag kunna navigera till de 3 olika vyerna, "Katalog", "Lägg till bok" och "Mina böcker"
-så att det är möjligt att navigera till varje sida
+Som användare
+vill jag kunna navigera mellan vyerna “Katalog”, “Lägg till bok” och “Mina böcker”
+så att jag enkelt kan använda alla funktioner på webbplatsen.
