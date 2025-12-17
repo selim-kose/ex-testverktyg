@@ -14,8 +14,6 @@ def step_when_click_heart_icon(context):
 
     context.heart_icon = heart_icon
     
-    #context.page.wait_for_timeout(500)  # Wait for the UI to update
-
 @then(u'the heart icon should be filled, indicating the book is marked as favorite')
 def step_then_heart_icon_filled(context):
     print(context.heart_icon.get_attribute("class"))
