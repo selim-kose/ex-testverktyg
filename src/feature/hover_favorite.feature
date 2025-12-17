@@ -7,6 +7,6 @@
 Feature: Hover favorite
 
     Scenario:
-        Given user is on the main paige
+        Given users is on the main paige
         When user hovers over a book title
         Then the favorite heart icon should appear transparent
