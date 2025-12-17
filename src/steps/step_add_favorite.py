@@ -16,5 +16,4 @@ def step_when_click_heart_icon(context):
     
 @then(u'the heart icon should be filled, indicating the book is marked as favorite')
 def step_then_heart_icon_filled(context):
-    print(context.heart_icon.get_attribute("class"))
     expect(context.heart_icon).to_have_class(re.compile("selected"))
