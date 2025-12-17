@@ -24,3 +24,13 @@ så att jag kan se alla mina nuvarande favoritböcker i en lista i mina böcker 
 
 Som en användare vill jag kunna lägga till böcker i katalogen som sedan syns i katalogvyn
 så att jag kan favoritmarkera de
+
+## U6
+
+Som en användare vill jag att hjärtat för favorit markering ska visas genomskinlig när jag flyttar musen övern boktiteln
+så att jag vet att det går att favoritmarkera böcker
+
+## U7
+
+Som en användare vill jag kunna navigera till de 3 olika vyerna, "Katalog", "Lägg till bok" och "Mina böcker"
+så att det är möjligt att navigera till varje sida
