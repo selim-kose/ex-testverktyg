@@ -1,6 +1,5 @@
 from playwright.sync_api import expect
 from behave import given, when, then
-import time
 
 @given(u'user is on the main pages')
 def step_given_start_page(context):
@@ -28,10 +27,6 @@ def step_when_add_multiple_books(context):
         context.page.get_by_test_id("add-input-author").fill(author)
 
         context.page.get_by_test_id("add-submit").click()
-    
-#@when(u'user submits the form by pressing the "Lägg till ny bok" button')    
-#def step_when_submit_new_book(context):
-    #context.page.get_by_test_id("add-submit").click()
 
 @when(u'user clicks on the "Katalog" button')
 def step_when_click_catalog_button(context):
@@ -40,6 +35,7 @@ def step_when_click_catalog_button(context):
 
 @then(u'the books should appear in the book list')
 def step_then_books_in_list(context):
+    # TODO Ändra till RegEx
     for title, author in context.added_books:
         book_text = f'"{title}", {author}'
 
