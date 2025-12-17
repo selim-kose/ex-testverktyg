@@ -1,10 +1,12 @@
-## U3
-#Som en användare vill jag kunna lägga till böcker
-#så att jag vet vilka böcker jag har läst
+## U5
 
-Feature: Add book
+#Som en användare vill jag kunna lägga till böcker i katalogen som sedan syns i katalogvyn
+#så att jag kan favoritmarkera de
 
-  Scenario: Add a new books
+
+Feature: Add books
+
+  Scenario: Add new books
     Given user is on the main pages
     When user clicks on the "Lägg till bok" button
     When user adds the following books:
