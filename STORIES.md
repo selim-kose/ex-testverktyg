@@ -2,7 +2,7 @@
 
 ## U1 - Favoritmarkera bok i katalogen
 
-Som användare 
+Som användare
 vill jag kunna favoritmarkera böcker och ett hjärta läggs till vid sidan av titeln i katalogvyn
 så att jag kan se vilka böcker som har lagts till som mina favoriter i katalogvyn
 
