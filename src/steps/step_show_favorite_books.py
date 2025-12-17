@@ -3,7 +3,7 @@ from behave import given, when, then
 import re
 
 
-@given(u'user is on the main paige and a book is marked as favorite')
+@given(u'user is on the main paige and no books is marked as favorite')
 def step_given_start_page_with_no_favorite(context):
     context.page.goto(context.base_url, timeout=5000)
     hearts = context.page.get_by_test_id(re.compile("star-"))
