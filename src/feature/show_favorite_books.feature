@@ -8,7 +8,7 @@
 Feature: Show favorite books
     
     Scenario:
-        Given user is on the main paige and a book is marked as favorite
+        Given user is on the main paige and no books is marked as favorite
         When user klicks on heart icon next to a book title
         Then the heart should be filled, indicating the book is marked as favorite
         When user clicks on "Mina böcker" button
