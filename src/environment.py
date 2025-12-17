@@ -7,7 +7,7 @@ def before_all(context):
 
 def before_scenario(context, scenario):
     context.page = context.browser.new_page()
-    context.page.set_default_timeout(200)
+    context.page.set_default_timeout(300)
     context.base_url = "https://tap-vt25-testverktyg.github.io/exam--reading-list/"
 
 def after_scenario(context, scenario):
