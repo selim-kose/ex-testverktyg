@@ -1,7 +1,8 @@
-## U6
+## U6 - Visuell indikation för favoritmarkering
 
-#Som en användare vill jag att hjärtat för favorit markering ska visas genomskinlig när jag flyttar musen övern boktiteln
-#så att jag vet att det går att favoritmarkera böcker
+#Som användare
+#vill jag att favoritikonen visas genomskinlig när jag för musen över en bok i katalogen
+#så att jag förstår att boken går att markera som favorit.
 
 
 Feature: Hover favorite

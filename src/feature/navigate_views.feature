@@ -1,7 +1,8 @@
-## U7
+## U7 - Navigera mellan vyer
 
-#Som en användare vill jag kunna navigera till de 3 olika vyerna, "Katalog", "Lägg till bok" och "Mina böcker"
-#så att det är möjligt att navigera till varje sida
+#Som användare
+#vill jag kunna navigera mellan vyerna “Katalog”, “Lägg till bok” och “Mina böcker”
+#så att jag enkelt kan använda alla funktioner på webbplatsen.
 
 Feature: Navigate views
 
