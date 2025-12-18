@@ -31,6 +31,6 @@ playwright install
 behave
 ```
 
-Adress till appen: <https://tap-vt25-testverktyg.github.io/exam--reading-list/>
+**Adress till appen**: <https://tap-vt25-testverktyg.github.io/exam--reading-list/>
 
 ---
