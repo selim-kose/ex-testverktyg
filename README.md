@@ -1,9 +1,12 @@
-# Instruktioner
 
-## Starta testerna genom att skriva i terminalen
+# Examination Testverktyg
+
+## Instruktioner
 
 Installera python genom att följa instruktionerna på hemsidan:
-https://www.python.org/downloads/
+<https://www.python.org/downloads/>
+
+### Starta testerna genom att skriva i terminalen
 
 ```commandline
 git clone https://github.com/selim-kose/ex-testverktyg.git
@@ -17,6 +20,6 @@ playwright install
 behave
 ```
 
-Adress till appen: `https://forverkliga.se/JavaScript/whose-turn/`
+Adress till appen: <https://tap-vt25-testverktyg.github.io/exam--reading-list/>
 
 ---
