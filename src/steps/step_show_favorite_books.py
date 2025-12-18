@@ -41,6 +41,6 @@ def step_when_click_my_books(context):
 @then(u'user should see the book listed as a favorite')
 def step_then_see_favorite_book(context):
     favorite_book = context.page.get_by_text(context.selected_title)
-    expect(favorite_book).to_be_visible()
+    expect(favorite_book).to_be_visible(timeout=1000)
 
     
