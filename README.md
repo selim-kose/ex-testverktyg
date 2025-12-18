@@ -1,6 +1,17 @@
 
 # Examination Testverktyg
 
+I detta projekt testar vi hemsidan "Läslistan" som är en webbsida där man kan 
+välja ut sina favoriter från en katalog med böcker, eller lägga till nya. Beställaren är en organisation som vill öka barns och ungas läsande.
+
+## Vad som testas
+
+1. Favorit-markering av böcker
+2. Lägg till ny bok
+3. Favorit-markerade böcker hamnar i en lista
+
+För mer detaljer se user stories i STORIES.md
+
 ## Instruktioner
 
 Installera python genom att följa instruktionerna på hemsidan:
