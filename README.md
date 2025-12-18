@@ -3,7 +3,7 @@
 ## Starta testerna genom att skriva i terminalen
 
 Installera python genom att följa instruktionerna på hemsidan:
-[Link to python download] (https://www.python.org/downloads/)
+[Link to python download] https://www.python.org/downloads/
 
 ```commandline
 git clone https://github.com/selim-kose/ex-testverktyg.git
